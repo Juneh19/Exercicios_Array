@@ -21,9 +21,9 @@ int main(){
     menor=A[0];
     
     for(i=0;i<10;i++){
-        if (A[i]>maior) {
+        if (A[i]>maior)
             maior=A[i];
-        }else if (A[i]<menor) {
+        else if (A[i]<menor)
             menor=A[i];
     }
     
