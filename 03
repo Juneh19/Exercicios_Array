@@ -1,9 +1,9 @@
-//Leia do teclado dez valores inteiros e os armazene em um vetor.
-//Em seguida, o programa deve calcular e escrever a quantidade de elementos armazenados neste vetor que são pares.
-//Input:
-//1 2 3 4 5 6 7 8 9 10
-//Output:
-//Qtd. de nros pares armazenados no vetor eh = 5
+/Leia do teclado dez valores inteiros e os armazene em um vetor.
+Em seguida, o programa deve calcular e escrever a quantidade de elementos armazenados neste vetor que são pares.
+Input:
+1 2 3 4 5 6 7 8 9 10
+Output:
+Qtd. de nros pares armazenados no vetor eh = 5/
 
 #include <stdio.h>
 
