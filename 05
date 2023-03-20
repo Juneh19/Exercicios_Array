@@ -1,0 +1,30 @@
+//Leia do teclado sete valores inteiros e os armazene em um vetor.
+//Desenvolver um programa que defina o percentual de elementos pares e ímpares, respectivamente, armazenados neste vetor.
+//Por exemplo:
+//Input:
+//1 2 2 2 2 2 2
+//Output:
+Percentuais --> Par: 85.71% Impar: 14.29%
+
+#include <stdio.h>
+
+int main(){
+    int A[7], i, j;
+    float pctg;
+    i=0;
+    j=0;
+    
+    while(i<7){
+        scanf("%d",&A[i]);
+        if(A[i]%2==0){
+            j++;
+        }
+        i++;
+    }
+    
+    pctg=(100*j)/7.00;
+    
+    printf("Percentuais --> Par: %.2f%% Impar: %.2f%%",pctg,100-pctg);
+    
+    return 0;
+}
