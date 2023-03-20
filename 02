@@ -1,20 +1,20 @@
-//Leia do teclado sete valores inteiros e os armazene em um vetor “A”. Em seguida, o programa deverá construir um vetor “B” de mesmo tamanho.
-//Obedeça a seguinte regra de formação:
-//a) Bi deverá receber -1 quando Ai for menor que 50;
-//b) Bi deverá receber 0 quando Ai for igual a 50; e
-//c) Bi deverá receber 1 quando Ai for maior que 50.
-//Ao final do processo mostre os vetores “A” e “B” na tela.
-//Por exemplo:
-//Input:
-//10 20 30 40 50 60 70
-//Output:
-//A[0] = 10  B[0] = -1
-//A[1] = 20  B[1] = -1
-//A[2] = 30  B[2] = -1
-//A[3] = 40  B[3] = -1
-//A[4] = 50  B[4] = 0
-//A[5] = 60  B[5] = 1
-//A[6] = 70  B[6] = 1
+/Leia do teclado sete valores inteiros e os armazene em um vetor “A”. Em seguida, o programa deverá construir um vetor “B” de mesmo tamanho.
+Obedeça a seguinte regra de formação:
+a) Bi deverá receber -1 quando Ai for menor que 50;
+b) Bi deverá receber 0 quando Ai for igual a 50; e
+c) Bi deverá receber 1 quando Ai for maior que 50.
+Ao final do processo mostre os vetores “A” e “B” na tela.
+Por exemplo:
+Input:
+10 20 30 40 50 60 70
+Output:
+A[0] = 10  B[0] = -1
+A[1] = 20  B[1] = -1
+A[2] = 30  B[2] = -1
+A[3] = 40  B[3] = -1
+A[4] = 50  B[4] = 0
+A[5] = 60  B[5] = 1
+A[6] = 70  B[6] = 1/
 
 #include <stdio.h>
 
