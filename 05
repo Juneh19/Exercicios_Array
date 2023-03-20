@@ -1,10 +1,10 @@
-//Leia do teclado sete valores inteiros e os armazene em um vetor.
-//Desenvolver um programa que defina o percentual de elementos pares e ímpares, respectivamente, armazenados neste vetor.
-//Por exemplo:
-//Input:
-//1 2 2 2 2 2 2
-//Output:
-Percentuais --> Par: 85.71% Impar: 14.29%
+/Leia do teclado sete valores inteiros e os armazene em um vetor.
+Desenvolver um programa que defina o percentual de elementos pares e ímpares, respectivamente, armazenados neste vetor.
+Por exemplo:
+Input:
+1 2 2 2 2 2 2
+Output:
+Percentuais --> Par: 85.71% Impar: 14.29%/
 
 #include <stdio.h>
 
