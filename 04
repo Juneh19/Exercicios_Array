@@ -1,9 +1,9 @@
-//Leia cinco valores do teclado e os armazene em um vetor.
-//Em seguida, o programa deve mostrar o somatório e a média dos valores, conforme saída formatada mostrada no exemplo.
-//Input:
-//1 2 3 4 5
-//Output:
-//A soma eh 15 e a media eh 3.00
+/Leia cinco valores do teclado e os armazene em um vetor.
+Em seguida, o programa deve mostrar o somatório e a média dos valores, conforme saída formatada mostrada no exemplo.
+Input:
+1 2 3 4 5
+Output:
+A soma eh 15 e a media eh 3.00/
 
 #include <stdio.h>
 
