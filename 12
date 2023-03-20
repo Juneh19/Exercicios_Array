@@ -1,0 +1,40 @@
+//Construir um programa que, a partir de vetor “a” de inteiros (int a[10]), leia um valor inteiro do teclado (variável “item”)
+//e a seguir implemente a rotina de busca sequencial (do primeiro até encontrar; ou até o final se não encontrar),
+//para pesquisar se um dado “item” está armazenado em “a”. Mostre o resultado da busca: "Valor localizado na posicao X.",  ou "Valor nao foi localizado."
+//como resultado final.
+//Input:
+//10 2 7 8 5 3 22 17 18 6
+//7
+//Output:
+//Valor localizado na posicao 2.
+
+#include <stdio.h>
+
+int main(){
+    int i,a,b,A[10];
+    i=0;
+    b=0;
+    
+    while(i<10){
+        scanf("%d",&A[i]);
+        i++;
+    }
+    
+    scanf("%d",&a);
+    
+    i=0;
+    while(i<10){
+        if(a==A[i]){
+            printf("Valor localizado na posicao %d.",i);
+            b=1;
+            break;
+        }
+        i++;
+    }
+    
+    if(b==0){
+        printf("Valor nao foi localizado.");
+    }
+    
+    return 0;
+}
