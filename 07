@@ -1,0 +1,29 @@
+//Leia um vetor de oito posições.
+//Em seguida, leia também dois valores inteiros “x” e “y” correspondentes a duas posições do vetor (“x” e “y” devem estar compreendidos entre 0 e 7, inclusive).
+//Seu programa deverá exibir na tela a soma dos valores presentes nas posições “x” e “y” do vetor lido.
+//obs.: informar as posições do vetor para realizar a soma em ordem crescente, ou seja: primeiro o índice mais baixo para depois o indice superior, até o limite o vetor!
+//Por exemplo:
+//Input:
+//0 1 2 3 4 5 6 7
+//0
+//7
+//Output:
+//A soma das duas posicoes vale: 7
+
+#include <stdio.h>
+
+int main(){
+    int A[8], i, x, y;
+    i=0;
+    
+    while(i<8){
+        scanf("%d",&A[i]);
+        i++;
+    }
+    
+    scanf("%d%d",&x,&y);
+    
+    printf("A soma das duas posicoes vale: %d",A[x]+A[y]);
+    
+    return 0;
+}
