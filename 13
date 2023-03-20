@@ -1,12 +1,12 @@
-//Dados dois vetores “a” e “b” com 6 elementos inteiros cada. Implementar um programa que verifica se os vetores são iguais na ordem.
-//Mostre um dos dois resultados possíveis:
-//Vetores "a" e "b" sao iguais!
-//Vetores "a" e "b" sao diferentes!
-//Por exemplo:
-//Input:
-//1 2 3 4 5 6
-//1 2 3 4 5 6
-//Vetores "a" e "b" sao iguais!
+/Dados dois vetores “a” e “b” com 6 elementos inteiros cada. Implementar um programa que verifica se os vetores são iguais na ordem.
+Mostre um dos dois resultados possíveis:
+Vetores "a" e "b" sao iguais!
+Vetores "a" e "b" sao diferentes!
+Por exemplo:
+Input:
+1 2 3 4 5 6
+1 2 3 4 5 6
+Vetores "a" e "b" sao iguais!/
 
 #include <stdio.h>
 
