@@ -1,19 +1,19 @@
-//Receba do usuário dois vetores “a” e “b”, com 10 inteiros cada. Crie um novo vetor “c” calculando “c = a – b” e mostre na tela os dados dos 3 vetores.
-//Por exemplo:
-//Input:
-//1 2 3 4 5 6 7 8 9 10
-//10 9 8 7 6 5 4 3 2 1
-//Output:
-//0: 1 - 10 = -9
-//1: 2 - 9 = -7
-//2: 3 - 8 = -5
-//3: 4 - 7 = -3
-//4: 5 - 6 = -1
-//5: 6 - 5 = 1
-//6: 7 - 4 = 3
-//7: 8 - 3 = 5
-//8: 9 - 2 = 7
-//9: 10 - 1 = 9
+/Receba do usuário dois vetores “a” e “b”, com 10 inteiros cada. Crie um novo vetor “c” calculando “c = a – b” e mostre na tela os dados dos 3 vetores.
+Por exemplo:
+Input:
+1 2 3 4 5 6 7 8 9 10
+10 9 8 7 6 5 4 3 2 1
+Output:
+0: 1 - 10 = -9
+1: 2 - 9 = -7
+2: 3 - 8 = -5
+3: 4 - 7 = -3
+4: 5 - 6 = -1
+5: 6 - 5 = 1
+6: 7 - 4 = 3
+7: 8 - 3 = 5
+8: 9 - 2 = 7
+9: 10 - 1 = 9/
 
 #include <stdio.h>
 
