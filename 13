@@ -1,0 +1,43 @@
+//Dados dois vetores “a” e “b” com 6 elementos inteiros cada. Implementar um programa que verifica se os vetores são iguais na ordem.
+//Mostre um dos dois resultados possíveis:
+//Vetores "a" e "b" sao iguais!
+//Vetores "a" e "b" sao diferentes!
+//Por exemplo:
+//Input:
+//1 2 3 4 5 6
+//1 2 3 4 5 6
+//Vetores "a" e "b" sao iguais!
+
+#include <stdio.h>
+
+int main(){
+    int i,a,A[6],B[6];
+    i=0;
+    a=1;
+    
+    while(i<6){
+        scanf("%d",&A[i]);
+        i++;
+    }
+    
+    i=0;
+    while(i<6){
+        scanf("%d",&B[i]);
+        i++;
+    }
+    
+    i=0;
+    while(i<6){
+        if(A[i]!=B[i]){
+            a=0;
+            break;
+        }
+        i++;
+    }
+    
+    if(a==0)
+        printf("Vetores %ca%c e %cb%c sao diferentes!",34,34,34,34);
+    else
+        printf("Vetores %ca%c e %cb%c sao iguais!",34,34,34,34);
+    return 0;
+}
