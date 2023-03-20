@@ -1,0 +1,55 @@
+Criar um programa que data uma matriz 3 x 3 deve verificar se ela é ou não uma matriz Identidade
+(elementos da diagonal principal são todos iguais a 1 e os elementos restantes são iguais a zero).
+Respostas possíveis:
+A matriz eh identidade.
+A matriz nao eh identidade.
+Por exemplo:
+Input:
+1 0 0
+0 1 0
+0 0 1
+Output:
+A matriz eh identidade./
+
+#include <stdio.h>
+
+int main(){
+    int i,j,k,A[3][3];
+    i=0;
+    j=0;
+    
+    while(i<3){
+        while(j<3){
+            scanf("%d",&A[i][j]);
+            j++;
+        }
+        j=0;
+        i++;
+    }
+    
+    i=0;
+    j=0;
+    k=0;
+    
+    while(i<3){
+        while(j<3){
+            if(i==j){
+                if(A[i][j]==1)
+                    k++;
+            }else{
+                if(A[i][j]==0)
+                    k++;
+            }
+            j++;
+        }
+        j=0;
+        i++;
+    }
+    
+    if(k==9)
+        printf("A matriz eh identidade.");
+    else
+        printf("A matriz nao eh identidade.");
+        
+    return 0;
+}
