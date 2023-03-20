@@ -1,0 +1,56 @@
+/Leia do teclado dois vetores A e B cada um com 7 elementos inteiros.
+Desenvolver um programa que crie um vetor C que é a diferença dos conjuntos formados pelos elementos dos vetores A e B.
+Diferença de conjuntos = todos os elementos do conjunto A que não existem no conjunto B. Considerar que não haverá valores repetidos no mesmo vetor.
+Caso não haja diferença mostrar a seguinte mensagem:
+Nao ha conjunto diferenca./
+
+#include <stdio.h>
+
+int main(){
+    int i,j,k,l,A[7],B[7],C[7];
+    i=0;
+    j=0;
+    k=0;
+    l=0;
+    
+    while(i<7){
+        scanf("%d",&A[i]);
+        i++;
+    }
+    
+    i=0;
+    while(i<7){
+        scanf("%d",&B[i]);
+        i++;
+    }
+    
+    i=0;
+    while(i<7){
+        while(j<7){
+            if(A[i]==B[j]){
+                l=1;
+                break;
+            }
+            j++;
+            
+        }
+        if (l==0) {
+           C[k]=A[i];
+           k++;
+        }
+        j=0;
+        i++;
+    }
+    
+    i=0;
+    if(k!=0){
+        printf("Diferenca:\n");
+        while(i<k){
+            printf("C[%d]= %d\n",i,C[i]);
+            i++;
+        }
+    }else
+        printf("Nao ha conjunto diferenca.");
+        
+    return 0;
+}
