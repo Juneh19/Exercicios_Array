@@ -1,0 +1,25 @@
+//Leia do teclado seis valores inteiros e em seguida mostre na tela os valores lidos na ordem inversa. Por exemplo:
+//Input	
+//1 2 3 4 5 6
+//Output
+//6 5 4 3 2 1
+
+#include <stdio.h>
+
+int main(){
+    int nmr[6], i;
+    i=0;
+    
+    while(i<6){
+        scanf("%d",&nmr[i]);
+        i++;
+    }
+    
+    i=5;
+    while(i>=0){
+        printf("%d ",nmr[i]);
+        i--;
+    }
+    
+    return 0;
+}
