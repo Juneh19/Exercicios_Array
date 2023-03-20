@@ -1,19 +1,19 @@
-//Leia um valor inteiro (variável “a”) e a seguir construa um vetor de 10 posições (variável “x”) com o resultado da seguinte expressão:
-//x[i] = a + i; para todo “i” variando de 0 até 9; Mostre os elementos do vetor “x” como resultado final.
-//Por exemplo:
-//Input:
-//9
-//Output:
-//x[0] = 9
-//x[1] = 10
-//x[2] = 11
-//x[3] = 12
-//x[4] = 13
-//x[5] = 14
-//x[6] = 15
-//x[7] = 16
-//x[8] = 17
-//x[9] = 18
+/Leia um valor inteiro (variável “a”) e a seguir construa um vetor de 10 posições (variável “x”) com o resultado da seguinte expressão:
+x[i] = a + i; para todo “i” variando de 0 até 9; Mostre os elementos do vetor “x” como resultado final.
+Por exemplo:
+Input:
+9
+Output:
+x[0] = 9
+x[1] = 10
+x[2] = 11
+x[3] = 12
+x[4] = 13
+x[5] = 14
+x[6] = 15
+x[7] = 16
+x[8] = 17
+x[9] = 18/
 
 #include <stdio.h>
 
