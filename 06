@@ -1,0 +1,42 @@
+//Implementar um programa que obtenha a cotação do dólar (U$) em relação ao real (R$) e a seguir armazene em vetor A com 20 elementos as seguintes conversões:
+//A[i] = cotação do dolar * i, para todo i variando de 1 até 20. 
+//Por exemplo:
+//Input:
+//7.34
+//Output:
+//1.00 (U$) = 7.34 (R$)
+//2.00 (U$) = 14.68 (R$)
+//3.00 (U$) = 22.02 (R$)
+//4.00 (U$) = 29.36 (R$)
+//5.00 (U$) = 36.70 (R$)
+//6.00 (U$) = 44.04 (R$)
+//7.00 (U$) = 51.38 (R$)
+//8.00 (U$) = 58.72 (R$)
+//9.00 (U$) = 66.06 (R$)
+//10.00 (U$) = 73.40 (R$)
+//11.00 (U$) = 80.74 (R$)
+//12.00 (U$) = 88.08 (R$)
+//13.00 (U$) = 95.42 (R$)
+//14.00 (U$) = 102.76 (R$)
+//15.00 (U$) = 110.10 (R$)
+//16.00 (U$) = 117.44 (R$)
+//17.00 (U$) = 124.78 (R$)
+//18.00 (U$) = 132.12 (R$)
+//19.00 (U$) = 139.46 (R$)
+//20.00 (U$) = 146.80 (R$)
+
+#include <stdio.h>
+
+int main(){
+    int i;
+    float ctc;
+    scanf("%f",&ctc);
+    i=1;
+    
+    while(i<=20){
+        printf("%.2f (U$) = %.2f (R$)\n",i*1.0,i*ctc);
+        i++;
+    }
+    
+    return 0;
+}
