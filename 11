@@ -1,14 +1,14 @@
-//Crie um vetor “a” com 5 elementos, e logo após construa um vetor “b” de mesmo tipo e tamanho, sendo que cada elemento do vetor “b” deverá ser o resto da divisão do
-//respectivo elemento de “a” por 2 (dois), ou seja:
-//b[i] = a[i] % 2. Mostre os elementos dos vetores “a” e “b” como resultado final.
-//Input:
-//10 2 7 8 5
-//Output:
-//a[0] = 10 b[0] = 0
-//a[1] = 2 b[1] = 0
-//a[2] = 7 b[2] = 1
-//a[3] = 8 b[3] = 0
-//a[4] = 5 b[4] = 1
+/Crie um vetor “a” com 5 elementos, e logo após construa um vetor “b” de mesmo tipo e tamanho, sendo que cada elemento do vetor “b” deverá ser o resto da divisão do
+respectivo elemento de “a” por 2 (dois), ou seja:
+b[i] = a[i] % 2. Mostre os elementos dos vetores “a” e “b” como resultado final.
+Input:
+10 2 7 8 5
+Output:
+a[0] = 10 b[0] = 0
+a[1] = 2 b[1] = 0
+a[2] = 7 b[2] = 1
+a[3] = 8 b[3] = 0
+a[4] = 5 b[4] = 1/
 
 #include <stdio.h>
 
