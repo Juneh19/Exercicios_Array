@@ -1,0 +1,62 @@
+/Leia uma matriz de tamanho 4 × 2 com as notas de 4 alunos em 2 provas. Em seguida, apresente na tela a média aritmética simples de cada aluno e a média geral das 2 notas.
+Por exemplo:
+Input:
+7.5 8.5
+8.8 9.5
+3.2 4.5
+9.9 9.5
+Output:
+Medias:
+Aluno 1 = 8.00
+Aluno 2 = 9.15
+Aluno 3 = 3.85
+Aluno 4 = 9.70
+Media da prova 1: 7.35
+Media da prova 2: 8.00/
+
+#include <stdio.h>
+
+int main(){
+    int i,j;
+    float A[4][2],med;
+    i=0;
+    j=0;
+    
+    while(i<4){
+        while(j<2){
+            scanf("%f",&A[i][j]);
+            j++;
+        }
+        j=0;
+        i++;
+    }
+    
+    i=0;
+    j=0;
+    
+    printf("Medias:\n");
+    while(i<4){
+        med=(A[i][j]+A[i][j+1])/2;
+        printf("Aluno %d = %.2f\n",i+1,med);
+        i++;
+    }
+    
+    i=0;
+    j=0;
+    
+    med=0;
+    while(j<2){
+        while(i<4){
+            med=med+A[i][j];
+            i++;
+        }
+        printf("Media da prova %d: %.2f\n",j+1,med/4);
+        i=0;
+        med=0;
+        j++;
+    }
+    
+    printf("\n");
+    
+    return 0;
+}
